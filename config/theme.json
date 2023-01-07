@@ -1,0 +1,12 @@
+{
+  "fonts": {
+    "font_family": {
+      "primary": "Mulish:wght@400;600;700",
+      "primary_type": "sans-serif"
+    },
+    "font_size": {
+      "base": "16",
+      "scale": "1.250"
+    }
+  }
+}

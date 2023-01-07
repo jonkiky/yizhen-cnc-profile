@@ -1,0 +1,11 @@
+{
+  "site": {
+    "title": "Bookworm Next | Personal Blog Theme",
+    "base_url": "/",
+    "favicon": "https://media-exp1.licdn.com/dms/image/C560BAQEixIsqEJ7ySQ/company-logo_200_200/0/1607449320426?e=1677715200&v=beta&t=HUztY_IHFNaMfjxXUUnhkuX2fQN803xWB-ZWsEHeb3Q",
+    "logo": "/images/logo.png",
+    "logo_width": "200",
+    "logo_height": "34",
+    "logo_text": "Bookworm Light"
+  }
+}
