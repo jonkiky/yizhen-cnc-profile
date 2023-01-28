@@ -1,9 +1,11 @@
 {
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/about_us": "pages/about_us.html",
   "/_document": "pages/_document.js",
-  "/about_us": "pages/about_us.js",
-  "/": "pages/index.js",
-  "/basic": "pages/basic.js",
-  "/plan": "pages/plan.js"
+  "/basic": "pages/basic.html",
+  "/": "pages/index.html",
+  "/_app": "pages/_app.js",
+  "/topics": "pages/topics.html",
+  "/plan": "pages/plan.html",
+  "/404": "pages/404.html"
 }

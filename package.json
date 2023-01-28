@@ -41,6 +41,7 @@
   },
   "scripts": {
     "dev": "next dev",
+    "export": "next build && next export",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",

@@ -1,6 +1,6 @@
 import React from 'react'; 
 import Image from 'next/image';
-import circle from '../assets/images/yizhen.JPG'
+import circle from '../assets/images/yizhen.jpg'
 import {Paper,Container,UnderLine,Title,Paragraph,SubTitle,Section,blackBoldSpan,dot} from './theme.js';
 
 function AboutUsContent() {
