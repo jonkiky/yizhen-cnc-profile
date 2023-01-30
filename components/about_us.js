@@ -9,9 +9,9 @@ function AboutUsContent() {
     <>
      <Paper>
          <Container >
-         <section className="flex flex-row grid grid-cols-3  gap-4 my-auto content-center">
+         <section className="flex flex-col md:flex-row md:grid md:grid-cols-3  md:gap-4 my-auto content-center">
             	<div>
-            	<Image src={circle} className="w-96 rounded-full p-8" />
+            	<Image src={circle} className="md:w-96 w-72 rounded-full p-8" />
             	</div>
             	<div className="col-span-2">
             		<SubTitle>天天写代码的营养师</SubTitle>
