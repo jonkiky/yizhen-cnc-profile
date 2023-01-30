@@ -4,5 +4,6 @@ module.exports = {
     '@emotion/babel-plugin',
     'babel-plugin-twin',
     'babel-plugin-macros',
+    ["styled-components", { "ssr": true }]
   ],
 }

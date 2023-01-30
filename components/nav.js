@@ -5,9 +5,11 @@ import {Paper,Container} from './theme.js';
 
 function listItem(text,key){
   return  <li >
-          <div class="flex items-center">
-            <svg aria-hidden="true" class="w-6 h-6 text-gray-200" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
-            <span class=" ml-1 text-base font-medium text-gray-100 md:ml-2 dark:text-gray-400 hover:text-lg hover:text-gray-900 hover:bg-gray-100 px-5">
+          <div className="flex items-center">
+            <svg aria-hidden="true" className="w-6 h-6 text-gray-200" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd">
+            </path></svg>
+            <span className=" ml-1 text-base font-medium text-gray-100 md:ml-2 dark:text-gray-400 hover:text-lg hover:text-gray-900 hover:bg-gray-100 px-5">
             <Link href={"./"+key} >{text}</Link>
             </span>
           </div>
@@ -16,8 +18,8 @@ function listItem(text,key){
 
 function listItemRoot(text){
   return  <li >
-          <div class="flex items-center">
-            <span class="ml-1 text-base font-medium text-gray-100 md:ml-2 dark:text-gray-400 hover:text-lg hover:text-gray-900 hover:bg-gray-100 px-5">{text}</span>
+          <div className="flex items-center">
+            <span className="ml-1 text-base font-medium text-gray-100 md:ml-2 dark:text-gray-400 hover:text-lg hover:text-gray-900 hover:bg-gray-100 px-5">{text}</span>
           </div>
         </li>
 }
@@ -26,9 +28,9 @@ function listItemRoot(text){
 function Nav() {
 
   return (
-   <section className="sticky top-0 z-50 drop-shadow-2xl bg-gray-900 border-b-2 border-slate-500">
-      <Container className="antialiased text-xl text-slate-100 font-bold">
-      <ol class="inline-flex items-center space-x-1 md:space-x-3 cursor-pointer">
+   <section className="sticky top-0 hidden sm:flex z-50 drop-shadow-2xl bg-gray-900 border-b-2 border-slate-500 ">
+      <Container>
+      <ol className="inline-flex items-center space-x-1 md:space-x-3 cursor-pointer text-xl text-slate-100 font-bold">
          {listItemRoot("导航")}
          {listItem("减肥关键","basic#key")}
          {listItem("热量输出","basic#energy-out")}

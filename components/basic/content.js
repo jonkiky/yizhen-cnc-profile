@@ -21,19 +21,18 @@ function BasicContent() {
       <Nav/>
          <Container >
             <Section id="key">
-              <div className="-mt-48">
+              <div className="sm:-mt-48 ">
                 <Title>减肥关键</Title>
                 <SubTitle>Energy Balance and Metabolism</SubTitle>
-                <Paragraph className="mt-4">减肥基础就是热量平衡。要减肥就是得<UnderLine>创造热量缺口</UnderLine>。</Paragraph>
+                <Paragraph>减肥基础就是热量平衡。要减肥就是得<UnderLine>创造热量缺口</UnderLine>。</Paragraph>
                 <Paragraph>吃的多，消耗少。身体就将多余的能量储存起来，就等于增重。反之，就是减重。</Paragraph>
                  <SubTitle>减肥，我们需要去做的就是<UnderLine>控制热量输入，增加热量输出</UnderLine>。</SubTitle>
                </div>
-               <div className="-mt-48">
+               <div className="sm:-mt-48">
                   <Image src={balance}  alt="balance img" />
                </div>
-              
             </Section>
-          <section id="energy-out" className="flex flex-row grid grid-cols-2  gap-4 my-auto content-center">
+          <section id="energy-out" className="mt-24 md:mt-0 flex md:flex-row  flex-col md:grid md:grid-cols-2  md:gap-4 my-auto content-center">
             <div>
             <Title>热量输出   </Title>
             <SubTitle> Total Daily Energy Expenditure (TDEE) </SubTitle>
@@ -52,7 +51,6 @@ function BasicContent() {
                  <UnderLine>产能消耗 </UnderLine>The Thermic Effect of Feeding (TEF):人体在消化食物过程中所消耗的能,占总消耗的10%（Kelly，2013）。
                </Paragraph>
              </li>
-              <li><b></b></li>
               <li>
                 <Paragraph>
                 <UnderLine>运动消耗 </UnderLine>The Thermic Effect of Activity (TEA): 指的是各类生活运动中所消耗的能量,占总消耗的15%-30%(Westerterp, 2013).
@@ -73,7 +71,7 @@ function BasicContent() {
             </section>
 
 
-            <section className="mt-48">
+            <section className="md:mt-48 mt-12">
              <Title >增加热量输出</Title>
                 <SubTitle >
                   <b >充足睡眠</b>
@@ -104,7 +102,7 @@ function BasicContent() {
 
 
 
-          <section className="mt-24 mb-96">
+          <section className="mt-24 md:mb-96 mb-48">
            <Title >
               三种影响能量消耗的常见荷尔蒙
            </Title>
@@ -197,7 +195,7 @@ function BasicContent() {
              碳水化合物为身体提供能量,是一类有机化合物，由碳、氢和氧组成,包括糖类和淀粉类。糖类是简单碳水化合物，如葡萄糖、果糖等，可以直接被细胞利用。淀粉类(纤维）是复杂碳水化合物，需要被消化吸收后才能被细胞利用（Berg，2015）。
              <UnderLine>根据USDA推荐50%的总卡路里摄入是来自碳水。</UnderLine>
              </Paragraph>
-        <div className="flex flex-row grid grid-cols-2">
+        <div className="md:flex md:flex-row md:grid md:grid-cols-2">
               <div>
             <SubTitle >
               <b>碳水摄入量</b>
@@ -229,7 +227,7 @@ function BasicContent() {
                 它们通常存在于加工食品，如白面包，糕点，糖果，薯片和饮料中。这些类型的碳水化合物可能导致血糖升高(GI)，并且与肥胖和慢性疾病有关。
                 </Paragraph>
               </div>
-              <Image src={healthFood} className="ml-12" alt="healthFood img"/>
+              <Image src={healthFood} className="md:ml-12" alt="healthFood img"/>
           </div>
           </section>
 
