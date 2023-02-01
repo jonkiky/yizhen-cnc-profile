@@ -63,10 +63,10 @@ function BasicContent() {
               Image from NSAM text book
             </div>
             <Paragraph >
-            按图说话，基础代谢占能量消耗主要地位。 减肥过程中，我们更多的是需要<UnderLine>关注我们的基础代谢</UnderLine>。
-            简单说，就是在减肥的过程中，<UnderLine>研究表明甲狀腺機能低下症，身体储存高脂肪，肌肉较少会导致基础代谢下降(Mullur, Liu & Brent, 2014)。</UnderLine>
-            减肥就是个减脂增肌的过程。
-            <span className="text-red-500">注意减脂可能会导致新陈代谢下降，光减脂不增肌导致基础代谢快速下降，这是大多数人为什么一但减少或停止运动就会快速复胖，甚至更胖的原因。</span>
+            基础代谢占能量消耗主要地位。 减肥过程中，我们需要更多<UnderLine>关注我们的基础代谢</UnderLine>。
+            基础代谢高了，躺着也能把肥减了。<UnderLine>研究表明甲狀腺機能低下症，身体储存高脂肪，肌肉较少会导致基础代谢下降(Mullur, Liu & Brent, 2014)。</UnderLine>
+            所以减肥就是个减脂增肌的过程。
+            <br/>注意减脂可能会导致新陈代谢下降，光减脂不增肌导致基础代谢快速下降，这是大多数人为什么一但减少或停止运动就会快速复胖，甚至更胖的原因.
             </Paragraph>
             </section>
 
@@ -119,17 +119,19 @@ function BasicContent() {
            <Paragraph>
            <b>皮质醇</b>是由肾上腺分泌的类固醇激素。它被称为应激激素，因为它在应激时会被释放出来，但它在调节新陈代谢、免疫功能和血压方面也起着重要作用。<UnderLine>高水平的皮质醇会导致体重增加，尤其是在腹部周围</UnderLine>，还可能导致肌肉疲软(Sargis, 2018)。
           
-           皮质醇和压力密切相关。因此，<UnderLine>缓解生活中的压力可确保皮质醇水平维持在健康的范围内</UnderLine>。
+           <UnderLine>皮质醇和压力密切相关</UnderLine>。因此，缓解生活中的压力可确保皮质醇水平维持在健康的范围内。
            </Paragraph>
 
            <Paragraph>
-           <b>睾酮</b>(testosterone)是一种在碳水化合物、脂肪和蛋白质新陈代谢中起关键作用的激素。<UnderLine>它对男性体脂组成和肌肉质量有重大影响</UnderLine>。睾酮缺乏与脂肪量增加（尤其是中央脂肪肚）、胰岛素敏感性降低和糖耐量受损有关，这可能与糖尿病和心脏病风险有关（Kelly & Jones, 2013）。
+           <b>睾酮</b>(testosterone)是一种在碳水化合物、脂肪和蛋白质新陈代谢中起关键作用的激素。<UnderLine>睾酮对男性体脂组成和肌肉质量有重大影响</UnderLine>。
+           睾酮缺乏与脂肪量增加（尤其是中央脂肪肚）、胰岛素敏感性降低和糖耐量受损有关，
+           这可能与糖尿病和心脏病风险有关（Kelly & Jones, 2013）。
            <UnderLine>我们去健身房增肌主要就是为了促进睾酮激素的分泌</UnderLine>。促睾的黄金动作就是负重深蹲，当然其他的负重无氧，尤其是下半身爆发力训练都可以对促进睾酮激素有帮助。
-           其次是<UnderLine>优质脂肪是输入</UnderLine>，比如坚果等。喝酒会减少睾酮。
+           其次是<UnderLine>优质脂肪输入</UnderLine>，比如坚果等。喝酒会减少睾酮。
            </Paragraph>
-           <div className="flex flex-row gap-12 grid grid-cols-2 mt-12 w-full">
+           <div className="flex md:flex-row md:gap-12 md:grid md:grid-cols-2 mt-12 w-full">
               <Image src={muscleImg} alt="muscle img" />
-              <Image src={smileImg} alt="smile img" />
+              <Image src={smileImg} alt="smile img"  className="hidden md:block" />
             </div> 
            </section>
 
@@ -141,22 +143,22 @@ function BasicContent() {
            </SubTitle>
 
            <Paragraph>
-           有种理论认为<UnderLine>控制胰岛素才是减肥的根本</UnderLine>。简单说胰岛素促储能。
+           有种理论认为<UnderLine>控制胰岛素才是减肥的根本</UnderLine>。
            </Paragraph>
 
              <Paragraph>
-             胰岛素(Insulin)是在胰腺中产生的，它能够增加葡萄糖进入细胞，并促进糖原合成。<br/>
-             胰高糖素(Glucagon)则是在胰腺中产生的，它能够促进肝脏和肌肉组织中糖原的分解，以增加血糖水平。这两种激素的平衡调节是维持葡萄糖平衡的关键。
+             胰岛素(Insulin)是在胰腺中产生的，它能够增加葡萄糖进入细胞，并促进糖原合成。缓解高血糖。<br/>
+             胰高糖素(Glucagon)则是在胰腺中产生的，它能够促进肝脏和肌肉组织中糖原的分解，以增加血糖水平。这两种激素的平衡调节是维持葡萄糖平衡的关键。缓解低血糖。
              </Paragraph>
 
              <Paragraph>
-             进食后会导致血糖升高，刺激释放胰岛素，胰岛素就会将过多的葡萄糖推入细胞，恢复正常的血糖水平。<br/>
-             肝脏（主要）和肾脏共同开始吸收胰岛素并分解它，以防止血糖水平过低。
+             进食后会导致血糖升高，刺激释放胰岛素，胰岛素就会将过多的葡萄糖推入细胞，恢复正常的血糖水平。
+             肝脏（主要）和肾脏共同开始吸收胰岛素并分解它，以防止血糖水平过低。<br/>
              每当个体进入低血糖状态时，胰腺就会释放胰高糖素并传到肝脏，在那里释放存储的糖原来恢复正常的血糖水平（Katch et al., 2015）。
              <br/>
-             简单说胰岛素的产生会将过多的能源储存起来。 
+             简单说胰岛素的产生会将过多的能源储存起来。如果控制血糖上升，就会减少身体储能。
              <br/>
-             <UnderLine>这种理论的基础就是使胰岛素保持平衡。支持少食多餐减肥法，Keto减肥，低碳高蛋白减肥法。减少一次性大量热量输入，或者吃同热量但低GI值的食物，比如脂肪类。</UnderLine>
+             <UnderLine>这种理论的基础就是使胰岛素保持平衡。支持少食多餐减肥法，Keto减肥，低碳高蛋白减肥法。主要是避免一次性大量热量输入，或者吃同热量但低GI值的食物，比如脂肪类，可以缓解血糖上升速度。</UnderLine>
 
              </Paragraph>
 
@@ -165,13 +167,13 @@ function BasicContent() {
            </SubTitle>
 
              <Paragraph>
-               糖尿病指数（GI评分）是一种相对排名，用于表示食物对血糖（血糖）的影响2小时后食用该食物。
+               血糖生成指数（GI评分）用于表示食物在食用2小时后对血糖的影响。
                评分指数将100分分配给葡萄糖，作为这一排名系统的参考食物。 
                50分基本上反映了一种血糖升高速度为葡萄糖一半的食物。
                <UnderLine>低GI食物被分类为分数低于55分的食物，</UnderLine>中等GI食物被分类为分数在56到69之间的食物，高GI食物被分类为分数高于69分的食物（Pennington & Sprungen, 2009）。
                <br/>
                
-               <UnderLine><b>替换</b></UnderLine>食用高GI值的食物为低GI的食物有助于控制胰岛素。GI时候与平等替换。
+               用低GI值的食物替换高GI的食物有助于控制胰岛素。
                <UnderLine>大量食用低GI值的食物等同于小量食用高GI值的食物</UnderLine>。
                <br/>
                GI食物表：https://www.healthwomen.com.tw/giindex/
@@ -185,7 +187,7 @@ function BasicContent() {
               <Title>人体主要的能量来源</Title>
 
              <Paragraph className="mt-12 mb-4">
-             人体主要的能量来源主要有三种：碳水化合物、脂肪和蛋白质。碳水化合物是人体最重要的能量来源，来自于食物中的糖类和淀粉类。而脂肪和蛋白质的能量利用率较低，在能量紧缺时才会被代谢。(Chen,L 2018)</Paragraph>
+             人体主要的能量来源主要有三种：碳水化合物、脂肪和蛋白质。碳水化合物是人体最重要的能量来源，来自于食物中的糖类和淀粉类。脂肪和蛋白质的能量利用率较低，在能量紧缺时才会被代谢。(Chen,L 2018)</Paragraph>
 
               
               <SubTitle >
@@ -202,10 +204,10 @@ function BasicContent() {
            </SubTitle>
            <Paragraph>
              根据国家医学院确定的膳食参考摄入量（DRIs），成年人每天推荐的碳水化合物摄入量因年龄、性别、体重和体力活动水平等个体因素而异。
-             ，成年人每天推荐的碳水化合物摄入量为每天<UnderLine>至少130克</UnderLine>。
-             通常，这被认为是维持正常新陈代谢和燃料利用的最低量。然而，碳水化合物的可接受的宏量营养素分布范围（AMDR）设定为每天总<UnderLine>热量摄入的45％至65％</UnderLine>。
-           <UnderLine>碳水的缺失会导致肌肉流失</UnderLine>。 脂肪新陈代谢的生理途径涉及碳水化合物的副产品以完成新陈代谢。当缺乏这种特定碳水化合物副产品的数量时，
-           身体会从某些非碳水化合物来源中生产葡萄糖，包括分解肌肉组织。
+             成年人每天推荐的碳水化合物摄入量为每天<UnderLine>至少130克</UnderLine>以维持正常新陈代谢和燃料利用。
+             碳水化合物的可接受的宏量营养素分布范围（AMDR）设定为每天总<UnderLine>热量摄入的45％至65％</UnderLine>。<br/>
+           <UnderLine>碳水的缺失会导致肌肉流失</UnderLine>。 脂肪新陈代谢的生理途径需要碳水化合物的配合以完成新陈代谢。当缺乏这种特定碳水化合物时，
+           身体会从某些非碳水化合物来源中生产葡萄糖，这会分解肌肉组织。
            </Paragraph>
              
               
@@ -218,13 +220,13 @@ function BasicContent() {
 
             
                 <Paragraph>
-                   根据疾病控制和预防中心（CDC）的数据，高摄入优质碳水化合物、低摄入添加糖和饱和脂肪的饮食与慢性疾病（如心脏病、2型糖尿病和一些癌症）的风险较低有关。（https://www.cdc.gov/nutrition/about-cnpp/cnpp-resources/index.html）
-      重要的是要记住，如果摄入的卡路里比消耗的多，即使摄入过多的优质碳水化合物也可能导致体重增加。
+                   根据疾病控制和预防中心（CDC）的数据，高摄入优质碳水化合物、低摄入添加糖和饱和脂肪的饮食可以降低慢性疾病（如心脏病、2型糖尿病和一些癌症）的风险。（https://www.cdc.gov/nutrition/about-cnpp/cnpp-resources/index.html）
+    但要记住，如果摄入的卡路里比消耗的多，即使摄入过多的优质碳水化合物也可能导致体重增加。
                  </Paragraph>
 
 
                 <Paragraph> <UnderLine>低质碳水化合物，也被称为简单碳水化合物或精制碳水化合物，是那些被加工过，纤维含量低，富含糖和添加剂的碳水化合物。</UnderLine>
-                它们通常存在于加工食品，如白面包，糕点，糖果，薯片和饮料中。这些类型的碳水化合物可能导致血糖升高(GI)，并且与肥胖和慢性疾病有关。
+                它们通常存在于加工食品，如白面包，糕点，糖果，薯片和饮料中。这些类型的碳水化合物可能导致血糖升高，导致肥胖和增加慢性疾病风险。
                 </Paragraph>
               </div>
               <Image src={healthFood} className="md:ml-12" alt="healthFood img"/>
@@ -238,8 +240,8 @@ function BasicContent() {
        <section className="mt-48 mb-12">
           <Title>蛋白质</Title>
           <Paragraph>
-          蛋白质是一种很重要的营养物质, 它是由氨基酸组成, 是维持人体健康不可缺少的营养素之一。
-          <UnderLine>蛋白质对于组织修复、新陈代谢、免疫系统等等都有重要作用</UnderLine>。摄入充足的蛋白质是维持身体健康的必要条件。
+          蛋白质是由氨基酸组成, 是维持人体健康不可缺少的营养素之一。
+          <UnderLine>蛋白质对于组织修复、新陈代谢、免疫系统等有重要作用</UnderLine>。摄入充足的蛋白质是维持身体健康的必要条件。
           </Paragraph>
 
 
@@ -255,7 +257,7 @@ function BasicContent() {
            </Paragraph>
 
 
-  <div className="flex flex-row grid grid-cols-2">
+  <div className="flex md:flex-row md:grid md:grid-cols-2 flex-col">
               <div>
                  <SubTitle>蛋白质作用</SubTitle>
                   <Paragraph>
@@ -265,8 +267,8 @@ function BasicContent() {
                   </Paragraph>
 
                    <SubTitle>蛋白质怎么吃</SubTitle>
-                 <Paragraph>USDA Dietary Guidelines for Americans 2015–2020 推荐蛋白质的摄入量占总卡路里的-17 to 18%。
-                 例如2000 calories 大概日均需要摄入85到 90  蛋白质。  </Paragraph>
+                 <Paragraph>USDA Dietary Guidelines for Americans 2015–2020 推荐蛋白质的摄入量占总卡路里的17% to 18%。
+                 例如2000 calories 大概日均需要摄入85g到90g蛋白质。  </Paragraph>
 
                  <Paragraph>The dietary reference intakes (DRI) 推荐以0.8g/kg为标准。例如体重为80kg那么需要摄入的蛋白质约为64g。
                  相对于USDA要求要少些。 </Paragraph>
@@ -275,7 +277,7 @@ function BasicContent() {
                    (Demling & DeSanti, 2000; Josse, Atkinson, Tarnopolsky, & Phillips, 2011).
                  </Paragraph>
          </div>
-          <Image src={protein} className="ml-12" alt="protein img"/>
+          <Image src={protein} className="md:ml-12" alt="protein img"/>
       </div>
          
       <SubTitle>蛋白质的质量</SubTitle>
@@ -298,7 +300,7 @@ function BasicContent() {
       <section className="mt-24">
       <SubTitle >蛋白质比较：Whey | Casein | Plant Protein</SubTitle>
       <Paragraph>
-      乳清蛋白（Whey）和酪蛋白（Casein）都提取自牛奶。
+      乳清蛋白（Whey）和酪蛋白（Casein）都提取自牛奶。<br/>
       <UnderLine><span className="text-slate-900"><b>乳清蛋白</b></span>富含必需氨基酸，与其他动物蛋白质来源相比，其中亮氨酸（Leucine）含量最高。
       由于其易溶解性，乳清蛋白易于混合，消化和吸收迅速，</UnderLine>
       使其成为锻炼者和运动员在强烈训练和/或准备比赛时增加或保持肌肉质量的特别受欢迎的补充剂。、
@@ -332,7 +334,7 @@ Tipton et al., 2004)
         好的脂肪酸（Omega-3 | Omega-6）对人体健康很重要，降低心血管疾病。<br/>
         能促进维生素（A,D,E,K）的吸收。有些维生素是油溶性，而非水溶性。 <br/>
         维持身体体温<br/>
-        荷尔蒙，脂肪太少可能会影响男性激素的生<br/>
+        荷尔蒙，脂肪太少可能会影响男性激素的生成<br/>
 
       </Paragraph>
 
@@ -412,10 +414,10 @@ Tipton et al., 2004)
             </Paragraph>
 
             <Paragraph >
-               希望通过了解这里营养学基础，可以帮助大家去了解我们为什么会变胖，为大家减肥大业,提供方向。
+               希望可以帮助大家去了解我们为什么会变胖，为大家减肥大业,提供方向。
                <br/>
                减肥的具体实施有各种各样的方式，比如168，keto，轻断食等。
-               通过学习些营养学知识，我们就能很快了解这些减肥方法是针对那种方式来减。从而大家可以辨别是非适合自己。
+               通过学习些营养学知识，我们就能很快了解这些减肥方法是针对那种方式来减。从而大家可以辨别那种适合自己。
                <br/>
             </Paragraph>
 
@@ -423,17 +425,14 @@ Tipton et al., 2004)
             <SubTitle>为什么减肥</SubTitle>
             <Paragraph >
              在减肥的路上，大家可能会经常忽略一点。 减肥是个过程或者是个手段，以达到某些目标。
-             大家很关心减肥技巧和体重计上的数字。但是大家是非想过，<UnderLine>我们是为什么什么在这里拼命的减肥。
-             是给体重器做减法么？是为了健康？健康是什么？活的久么？我们在续命么？</UnderLine> 我想这并不是大多数人开始减肥的想法吧。
+             大家很关心减肥技巧和体重计上的数字。但是大家可能没有想过，<UnderLine>我们是为什么什么在这里拼命的减肥。</UnderLine> 
+             减肥成功了能带给我们什么。
              <br/>
              动力来源于目标，一个明确的目标会推动大家不停的向前。我见过的减肥效果最好的人，他们的故事都是从一场病开始。减肥对他们来说，就是生和死的选择。
              <br/>
-             很多人在减肥的大业上半途而废，首先就因为没有一个明确的目标。更没有没有一个可持续，可执行的计划。当然也没办法优化减肥方式和计划。
-             <br/>
-             如果我减肥，不了解我们减肥是什么，又没有正确的目标，没有可执行，可测试的计划。我们的减肥大业是很难持续的。更别说成功了一个没有成功定义的事情。
-             但绝大多数的我们都是这样过活着的。
+             很多人在减肥的大业上半途而废，首先可能是因为没有一个明确的目标。更没有没有一个可持续，可执行的计划。当然也没办法优化减肥方式和计划。
               <br/>
-              通过这里的学习，我们应该了解了什么是减肥。下面就开始我们的减肥计划吧。
+              下面就开始我们的制定减肥计划吧。
               <br/>
              
             </Paragraph>
