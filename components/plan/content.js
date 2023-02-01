@@ -13,18 +13,18 @@ function PlanContent() {
     <>
      <Paper>
          <Container >
-            <section className=" flex flex-row grid grid-cols-3  gap-4 my-auto content-center">
+            <section className="md:flex md:flex-row md:grid md:grid-cols-3  md:gap-4  flex flex-col my-auto content-center">
             	<div>
             	<Title>设定目标 </Title>
             	<SubTitle>Start from Why </SubTitle>
             	</div>
-            	<div className="col-span-2">
+            	<div className="md:col-span-2">
             		<Paragraph>
             		美国著名演说家作者Simon Sinek通过对乔布斯，怀特兄弟等成功人物的研究，
             		提出了一个行为模型。在他start with Why 这本书中，他称之为Golden Circle.  
             		
             		</Paragraph>
-            		<div class="content flex-none  lg:flex">
+            		<div class="content md:flex-none  lg:flex">
             				
             				<div className="item-body px-2 ">
 								<Paragraph >
@@ -63,19 +63,19 @@ function PlanContent() {
 								</Paragraph>
 
 								</div>
-							<Image src={circle} className="w-96 h-96" />
+							<Image src={circle} className="md:w-96 md:h-96" />
 						</div>
             	</div>
             </section>
 
 
 
-			<section className=" flex flex-row grid grid-cols-3  gap-4 my-48 content-center">
+			<section className=" md:flex md:flex-row md:grid md:grid-cols-3 flex flex-col  gap-4 my-48 content-center">
 	        	<div>	
 			            <Title>制定方案 (How)</Title>
 			            <SubTitle>Make a plan</SubTitle>
             	</div>
-	            <div className="col-span-2">
+	            <div className="md:col-span-2">
 			            <Paragraph>  当设定完目标后，我们可以开始设定计划大纲。决定怎么做
 			            . 减肥为主的方案，通常分为饮食计划和运动计划两部分。</Paragraph>
 			            <SubTitle>饮食方案 </SubTitle>
@@ -85,7 +85,7 @@ function PlanContent() {
   							饮食计划就偏高蛋白，低碳水和脂肪，同时注意肝肾功能。<br/>
              			</Paragraph>
 
-             			<div className="ml-12">
+             			<div className="md:ml-12">
              			<SubTitle>饮食计划 </SubTitle>
 
              			<Paragraph>
@@ -109,7 +109,7 @@ function PlanContent() {
 						一般推荐减肥的速度最高不超过人体3%的体重。推荐一周减（1~ 2 pounds per week) ,过快的减肥会导致身体各个平衡的失调。会出现长痘痘，皮肤油腻等问题。
 						</Paragraph>
 
-						<Paragraph className="ml-12">
+						<Paragraph className="md:ml-12">
 						<span className="text-slate-900">例如基础代谢为 2662 calories/ day(活动因子1.5）, 如果我们按 2 pounds per week计算。</span> <br/>
 						 <br/>
 						蛋白质 4 calories/gram <br/>
@@ -166,12 +166,12 @@ function PlanContent() {
              </section>
 
 
-			<section className=" flex flex-row grid grid-cols-3  gap-4 my-48 content-center">
+			<section className=" md:flex md:flex-row md:grid md:grid-cols-3  md:gap-4 flex flex-col my-48 content-center">
 	        	<div>	
 			            <Title>做什么 (What)</Title>
 			            <SubTitle>Take action</SubTitle>
             	</div>
-	            <div className="col-span-2">
+	            <div className="md:col-span-2">
 			            <SubTitle>饮食方案 </SubTitle>
 			            <Paragraph>
 			            	<b>Meal Plan</b>
@@ -207,9 +207,9 @@ function PlanContent() {
              </section>
 
 
-            <section className=" flex flex-row grid grid-cols-3  gap-4 my-48 content-center">
+            <section className=" md:flex md:flex-row md:grid md:grid-cols-3  md:gap-4 flex flex-col my-48 content-center">
 	            <Title>我自己的方案</Title>
-	            					<div className="col-span-2">
+	            					<div className="md:col-span-2">
 	            					<SubTitle>目标</SubTitle>
 										<Paragraph>
 										我希望有更好的身体条件来支持我打出更漂亮的高尔夫。 
