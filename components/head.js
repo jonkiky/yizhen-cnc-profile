@@ -31,7 +31,7 @@ function Head() {
 
           <div className="order-1 md:order-1">
                 <Link className="flex items-center tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-4xl " href="/">
-                   TheLastTry
+                   OneLastTry
                 </Link>
             </div>
 
