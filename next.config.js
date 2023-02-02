@@ -2,7 +2,7 @@ const isGithubActions = process.env.GITHUB_ACTIONS || false
 
   // trim off `<owner>/`
   const repo = "yizhen-cnc-profile"
-	const assetPrefix = `/${repo}/`
+	const assetPrefix = `/${repo}`
 	const basePath = `/${repo}`
 
 module.exports = {
