@@ -40,7 +40,7 @@ function AboutUsContent() {
             		</Paragraph>
             		<Paragraph>
             			<span className="w-2 h-2 bg-black inline-block rounded-full mx-2"></span>
-            			2023年，减肥进行时。大家一起加油，我会在这个网站更新我的减肥动态。
+            			2023年，减肥进行时。大家一起加油。
             		</Paragraph>
             		<Paragraph>
             			<span className="w-2 h-2 bg-black inline-block rounded-full mx-2"></span>
