@@ -1,11 +1,3 @@
-const isGithubActions = process.env.GITHUB_ACTIONS || false
-
-let assetPrefix = ''
-
-if (isGithubActions) {
-  assetPrefix = `https://cnc.joniky.com/`
-}
-
 module.exports = {
   images: {
         unoptimized: true
@@ -15,5 +7,4 @@ module.exports = {
     // Enables the styled-components SWC transform
     styledComponents: true
   },
-  assetPrefix: assetPrefix,
 };
